@@ -10,10 +10,21 @@
 
 @implementation Farm
 
+NSMutableArray *farmLand;
 
+
++ (void) createFarmLand {
+    land *temp;
+    
+    
+    for(int i = 0; i < 1000; i++) {
+        [farmLand addObject:(temp)];
+    }
+}
+
++(NSMutableArray *) getLand {
+    return farmLand;
+}
 
 @end
-<<<<<<< HEAD
-=======
 
->>>>>>> Alex
