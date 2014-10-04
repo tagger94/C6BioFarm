@@ -1,13 +1,19 @@
 //
-//  Farm.m
+//  land.h
 //  BioFarm
 //
 //  Created by Alex Jeffery Berns on 10/4/14.
 //  Copyright (c) 2014 Iowa State. All rights reserved.
 //
 
-#import "Farm.h"
+#import <Foundation/Foundation.h>
 
-@implementation Farm
+@interface land : NSObject
+
+
 
 @end
+
+
+
+

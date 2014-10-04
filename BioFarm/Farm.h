@@ -7,9 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "land.h"
 
 @interface Farm : NSObject
 
-NSArray land = new NSArray
+//NSMutableArray *farmLand;
+
 
 @end
+
+
+
+
