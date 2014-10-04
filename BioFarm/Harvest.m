@@ -10,4 +10,8 @@
 
 @implementation Harvest
 
++ (void)getCash:(land *)l{
+    
+}
+
 @end

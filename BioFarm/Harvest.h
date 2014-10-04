@@ -11,6 +11,6 @@
 
 @interface Harvest : NSObject
 
-+ (void)getCash: (land) l;
++ (void)getCash: (land*) l;
 
 @end
