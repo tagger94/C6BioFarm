@@ -53,20 +53,12 @@
 		1D17012519E03E7000465831 /* splashscreen.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010419E03E7000465831 /* splashscreen.psd */; };
 		1D17012619E03E7000465831 /* switchgrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010519E03E7000465831 /* switchgrass.png */; };
 		1D17016719E04F0F00465831 /* land.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D17016619E04F0F00465831 /* land.m */; };
-<<<<<<< HEAD
 		38BB291919E07817002B54E8 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291119E07817002B54E8 /* Event.m */; };
 		38BB291A19E07817002B54E8 /* Harvest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291319E07817002B54E8 /* Harvest.m */; };
 		38BB291B19E07817002B54E8 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291519E07817002B54E8 /* Money.m */; };
 		38BB291C19E07817002B54E8 /* Randevent.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291719E07817002B54E8 /* Randevent.m */; };
 		38BB291E19E0782D002B54E8 /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291D19E0782D002B54E8 /* Farm.m */; };
-=======
-		1DD208C719E07FBD00761A61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DD208BC19E07FBD00761A61 /* InfoPlist.strings */; };
-		1DD208C819E07FBD00761A61 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD208BF19E07FBD00761A61 /* Event.m */; };
-		1DD208C919E07FBD00761A61 /* Harvest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD208C119E07FBD00761A61 /* Harvest.m */; };
-		1DD208CA19E07FBD00761A61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD208C219E07FBD00761A61 /* Images.xcassets */; };
-		1DD208CB19E07FBD00761A61 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD208C419E07FBD00761A61 /* Money.m */; };
-		1DD208CC19E07FBD00761A61 /* Randevent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD208C619E07FBD00761A61 /* Randevent.m */; };
->>>>>>> origin/Alex
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,7 +124,6 @@
 		1D17012719E03F8000465831 /* Farm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farm.h; sourceTree = "<group>"; };
 		1D17016519E04F0F00465831 /* land.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = land.h; sourceTree = "<group>"; };
 		1D17016619E04F0F00465831 /* land.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = land.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		38BB291019E07817002B54E8 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		38BB291119E07817002B54E8 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		38BB291219E07817002B54E8 /* Harvest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Harvest.h; sourceTree = "<group>"; };
@@ -142,18 +133,7 @@
 		38BB291619E07817002B54E8 /* Randevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randevent.h; sourceTree = "<group>"; };
 		38BB291719E07817002B54E8 /* Randevent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Randevent.m; sourceTree = "<group>"; };
 		38BB291D19E0782D002B54E8 /* Farm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farm.m; sourceTree = "<group>"; };
-=======
-		1DD208BD19E07FBD00761A61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		1DD208BE19E07FBD00761A61 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
-		1DD208BF19E07FBD00761A61 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
-		1DD208C019E07FBD00761A61 /* Harvest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Harvest.h; sourceTree = "<group>"; };
-		1DD208C119E07FBD00761A61 /* Harvest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Harvest.m; sourceTree = "<group>"; };
-		1DD208C219E07FBD00761A61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1DD208C319E07FBD00761A61 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
-		1DD208C419E07FBD00761A61 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
-		1DD208C519E07FBD00761A61 /* Randevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randevent.h; sourceTree = "<group>"; };
-		1DD208C619E07FBD00761A61 /* Randevent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Randevent.m; sourceTree = "<group>"; };
->>>>>>> origin/Alex
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
