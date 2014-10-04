@@ -7,14 +7,14 @@
 //
 
 #import "Event.h"
+#import "Randevent.h"
 
 @implementation Event : NSObject
 
-- (void) chooseEvent:(int)num{
++ (void) chooseEvent:(int)num{
     switch (num) {
         case 1:
-            Randevent *e = [[Randevent alloc] init];
-            [e doEvent];
+            [Randevent doEvent];
             break;
         case 2:
             //Harvest();

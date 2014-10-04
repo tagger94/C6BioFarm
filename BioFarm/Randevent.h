@@ -7,9 +7,9 @@
 //
 
 #import "Event.h"
-@implementation Event
+@interface Randevent : NSObject
 
-
++ (void) doEvent;
 
 @end
 

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "land.h"
 
 @interface Harvest : NSObject
+
++ (void)getCash: (land) l;
 
 @end

@@ -10,7 +10,12 @@
 
 @interface land : NSObject
 
-
++ (void) initialize;
++ (int) getLand;
++ (void) harvestLand;
++ (void) plantLand: (int) type;
++ (void) tillLand;
++ (Boolean) isInsured;
 
 @end
 

@@ -11,7 +11,8 @@
 @interface Money : NSObject
 
 @property NSInteger *cash;
-- (void)add: (double) num;
-- (void)sub: (double) num; 
++ (void)add: (double) num;
++ (void)sub: (double) num;
++(double)getCash;
 
 @end
