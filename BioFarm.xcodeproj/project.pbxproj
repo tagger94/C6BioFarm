@@ -59,6 +59,7 @@
 		38BB291C19E07817002B54E8 /* Randevent.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291719E07817002B54E8 /* Randevent.m */; };
 		38BB291E19E0782D002B54E8 /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291D19E0782D002B54E8 /* Farm.m */; };
 		38BB292119E08E28002B54E8 /* Grow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB292019E08E28002B54E8 /* Grow.m */; };
+		38BB292419E095D3002B54E8 /* Buy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB292319E095D3002B54E8 /* Buy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,8 @@
 		38BB291D19E0782D002B54E8 /* Farm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farm.m; sourceTree = "<group>"; };
 		38BB291F19E08E28002B54E8 /* Grow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grow.h; sourceTree = "<group>"; };
 		38BB292019E08E28002B54E8 /* Grow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grow.m; sourceTree = "<group>"; };
+		38BB292219E095D3002B54E8 /* Buy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buy.h; sourceTree = "<group>"; };
+		38BB292319E095D3002B54E8 /* Buy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +207,8 @@
 				1D1700C219E03C9B00465831 /* BioAppDelegate.m */,
 				38BB291019E07817002B54E8 /* Event.h */,
 				38BB291119E07817002B54E8 /* Event.m */,
+				38BB292219E095D3002B54E8 /* Buy.h */,
+				38BB292319E095D3002B54E8 /* Buy.m */,
 				38BB291219E07817002B54E8 /* Harvest.h */,
 				38BB291319E07817002B54E8 /* Harvest.m */,
 				38BB291419E07817002B54E8 /* Money.h */,
@@ -455,6 +460,7 @@
 				38BB291A19E07817002B54E8 /* Harvest.m in Sources */,
 				38BB291C19E07817002B54E8 /* Randevent.m in Sources */,
 				1D1700BF19E03C9B00465831 /* main.m in Sources */,
+				38BB292419E095D3002B54E8 /* Buy.m in Sources */,
 				38BB292119E08E28002B54E8 /* Grow.m in Sources */,
 				1D1700C319E03C9B00465831 /* BioAppDelegate.m in Sources */,
 				38BB291E19E0782D002B54E8 /* Farm.m in Sources */,
