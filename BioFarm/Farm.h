@@ -11,6 +11,9 @@
 
 @interface Farm : NSObject
 
++ (void) createFarmLand;
++ (NSMutableArray *) getLand;
+
 //NSMutableArray *farmLand;
 
 
