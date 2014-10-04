@@ -19,6 +19,40 @@
 		1D1700CE19E03C9B00465831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1700B619E03C9B00465831 /* UIKit.framework */; };
 		1D1700D619E03C9B00465831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700D419E03C9B00465831 /* InfoPlist.strings */; };
 		1D1700D819E03C9B00465831 /* BioFarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1700D719E03C9B00465831 /* BioFarmTests.m */; };
+		1D17010619E03E7000465831 /* bar_environment.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700E219E03E7000465831 /* bar_environment.png */; };
+		1D17010719E03E7000465831 /* bar_money.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700E319E03E7000465831 /* bar_money.png */; };
+		1D17010819E03E7000465831 /* bar_social.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700E419E03E7000465831 /* bar_social.png */; };
+		1D17010919E03E7000465831 /* barn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700E519E03E7000465831 /* barn.png */; };
+		1D17010A19E03E7000465831 /* icon_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700E719E03E7000465831 /* icon_app.png */; };
+		1D17010B19E03E7000465831 /* icon_appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700E819E03E7000465831 /* icon_appstore.png */; };
+		1D17010C19E03E7000465831 /* NR-bar_environment.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700EA19E03E7000465831 /* NR-bar_environment.png */; };
+		1D17010D19E03E7000465831 /* NR-bar_money.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700EB19E03E7000465831 /* NR-bar_money.png */; };
+		1D17010E19E03E7000465831 /* NR-bar_social.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700EC19E03E7000465831 /* NR-bar_social.png */; };
+		1D17010F19E03E7000465831 /* NR-barn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700ED19E03E7000465831 /* NR-barn.png */; };
+		1D17011019E03E7000465831 /* NR-corn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700EE19E03E7000465831 /* NR-corn.png */; };
+		1D17011119E03E7000465831 /* NR-soil_bad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700EF19E03E7000465831 /* NR-soil_bad.png */; };
+		1D17011219E03E7000465831 /* NR-soil_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F019E03E7000465831 /* NR-soil_good.png */; };
+		1D17011319E03E7000465831 /* NR-soybean.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F119E03E7000465831 /* NR-soybean.png */; };
+		1D17011419E03E7000465831 /* NR-splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F219E03E7000465831 /* NR-splashscreen.png */; };
+		1D17011519E03E7000465831 /* NR-switchgrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F319E03E7000465831 /* NR-switchgrass.png */; };
+		1D17011619E03E7000465831 /* R-bar_environment.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F519E03E7000465831 /* R-bar_environment.png */; };
+		1D17011719E03E7000465831 /* R-bar_money.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F619E03E7000465831 /* R-bar_money.png */; };
+		1D17011819E03E7000465831 /* R-bar_social.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F719E03E7000465831 /* R-bar_social.png */; };
+		1D17011919E03E7000465831 /* R-barn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F819E03E7000465831 /* R-barn.png */; };
+		1D17011A19E03E7000465831 /* R-corn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700F919E03E7000465831 /* R-corn.png */; };
+		1D17011B19E03E7000465831 /* R-soil_bad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700FA19E03E7000465831 /* R-soil_bad.png */; };
+		1D17011C19E03E7000465831 /* R-soil_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700FB19E03E7000465831 /* R-soil_good.png */; };
+		1D17011D19E03E7000465831 /* R-soybean.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700FC19E03E7000465831 /* R-soybean.png */; };
+		1D17011E19E03E7000465831 /* R-splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700FD19E03E7000465831 /* R-splashscreen.png */; };
+		1D17011F19E03E7000465831 /* R-switchgrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700FE19E03E7000465831 /* R-switchgrass.png */; };
+		1D17012019E03E7000465831 /* corn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700FF19E03E7000465831 /* corn.png */; };
+		1D17012119E03E7000465831 /* soil_bad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010019E03E7000465831 /* soil_bad.png */; };
+		1D17012219E03E7000465831 /* soil_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010119E03E7000465831 /* soil_good.png */; };
+		1D17012319E03E7000465831 /* soybean.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010219E03E7000465831 /* soybean.png */; };
+		1D17012419E03E7000465831 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010319E03E7000465831 /* splashscreen.png */; };
+		1D17012519E03E7000465831 /* splashscreen.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010419E03E7000465831 /* splashscreen.psd */; };
+		1D17012619E03E7000465831 /* switchgrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010519E03E7000465831 /* switchgrass.png */; };
+		1D17012919E03F8000465831 /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D17012819E03F8000465831 /* Farm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +82,41 @@
 		1D1700D319E03C9B00465831 /* BioFarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BioFarmTests-Info.plist"; sourceTree = "<group>"; };
 		1D1700D519E03C9B00465831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D1700D719E03C9B00465831 /* BioFarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioFarmTests.m; sourceTree = "<group>"; };
+		1D1700E219E03E7000465831 /* bar_environment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_environment.png; sourceTree = "<group>"; };
+		1D1700E319E03E7000465831 /* bar_money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_money.png; sourceTree = "<group>"; };
+		1D1700E419E03E7000465831 /* bar_social.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_social.png; sourceTree = "<group>"; };
+		1D1700E519E03E7000465831 /* barn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barn.png; sourceTree = "<group>"; };
+		1D1700E719E03E7000465831 /* icon_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_app.png; sourceTree = "<group>"; };
+		1D1700E819E03E7000465831 /* icon_appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_appstore.png; sourceTree = "<group>"; };
+		1D1700EA19E03E7000465831 /* NR-bar_environment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-bar_environment.png"; sourceTree = "<group>"; };
+		1D1700EB19E03E7000465831 /* NR-bar_money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-bar_money.png"; sourceTree = "<group>"; };
+		1D1700EC19E03E7000465831 /* NR-bar_social.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-bar_social.png"; sourceTree = "<group>"; };
+		1D1700ED19E03E7000465831 /* NR-barn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-barn.png"; sourceTree = "<group>"; };
+		1D1700EE19E03E7000465831 /* NR-corn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-corn.png"; sourceTree = "<group>"; };
+		1D1700EF19E03E7000465831 /* NR-soil_bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-soil_bad.png"; sourceTree = "<group>"; };
+		1D1700F019E03E7000465831 /* NR-soil_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-soil_good.png"; sourceTree = "<group>"; };
+		1D1700F119E03E7000465831 /* NR-soybean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-soybean.png"; sourceTree = "<group>"; };
+		1D1700F219E03E7000465831 /* NR-splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-splashscreen.png"; sourceTree = "<group>"; };
+		1D1700F319E03E7000465831 /* NR-switchgrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR-switchgrass.png"; sourceTree = "<group>"; };
+		1D1700F519E03E7000465831 /* R-bar_environment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-bar_environment.png"; sourceTree = "<group>"; };
+		1D1700F619E03E7000465831 /* R-bar_money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-bar_money.png"; sourceTree = "<group>"; };
+		1D1700F719E03E7000465831 /* R-bar_social.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-bar_social.png"; sourceTree = "<group>"; };
+		1D1700F819E03E7000465831 /* R-barn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-barn.png"; sourceTree = "<group>"; };
+		1D1700F919E03E7000465831 /* R-corn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-corn.png"; sourceTree = "<group>"; };
+		1D1700FA19E03E7000465831 /* R-soil_bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-soil_bad.png"; sourceTree = "<group>"; };
+		1D1700FB19E03E7000465831 /* R-soil_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-soil_good.png"; sourceTree = "<group>"; };
+		1D1700FC19E03E7000465831 /* R-soybean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-soybean.png"; sourceTree = "<group>"; };
+		1D1700FD19E03E7000465831 /* R-splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-splashscreen.png"; sourceTree = "<group>"; };
+		1D1700FE19E03E7000465831 /* R-switchgrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R-switchgrass.png"; sourceTree = "<group>"; };
+		1D1700FF19E03E7000465831 /* corn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corn.png; sourceTree = "<group>"; };
+		1D17010019E03E7000465831 /* soil_bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soil_bad.png; sourceTree = "<group>"; };
+		1D17010119E03E7000465831 /* soil_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soil_good.png; sourceTree = "<group>"; };
+		1D17010219E03E7000465831 /* soybean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soybean.png; sourceTree = "<group>"; };
+		1D17010319E03E7000465831 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
+		1D17010419E03E7000465831 /* splashscreen.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = splashscreen.psd; sourceTree = "<group>"; };
+		1D17010519E03E7000465831 /* switchgrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchgrass.png; sourceTree = "<group>"; };
+		1D17012719E03F8000465831 /* Farm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farm.h; sourceTree = "<group>"; };
+		1D17012819E03F8000465831 /* Farm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +150,7 @@
 				1D1700D119E03C9B00465831 /* BioFarmTests */,
 				1D1700B119E03C9B00465831 /* Frameworks */,
 				1D1700B019E03C9B00465831 /* Products */,
+				1D1700E119E03E7000465831 /* Game Assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +177,8 @@
 		1D1700B819E03C9B00465831 /* BioFarm */ = {
 			isa = PBXGroup;
 			children = (
+				1D17012719E03F8000465831 /* Farm.h */,
+				1D17012819E03F8000465831 /* Farm.m */,
 				1D1700C119E03C9B00465831 /* BioAppDelegate.h */,
 				1D1700C219E03C9B00465831 /* BioAppDelegate.m */,
 				1D1700C419E03C9B00465831 /* Images.xcassets */,
@@ -142,6 +214,71 @@
 				1D1700D419E03C9B00465831 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D1700E119E03E7000465831 /* Game Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700E219E03E7000465831 /* bar_environment.png */,
+				1D1700E319E03E7000465831 /* bar_money.png */,
+				1D1700E419E03E7000465831 /* bar_social.png */,
+				1D1700E519E03E7000465831 /* barn.png */,
+				1D1700E619E03E7000465831 /* C6_Game_Assets_Icons */,
+				1D1700E919E03E7000465831 /* C6_Game_Assets_NonRetina */,
+				1D1700F419E03E7000465831 /* C6_Game_Assets_Retina */,
+				1D1700FF19E03E7000465831 /* corn.png */,
+				1D17010019E03E7000465831 /* soil_bad.png */,
+				1D17010119E03E7000465831 /* soil_good.png */,
+				1D17010219E03E7000465831 /* soybean.png */,
+				1D17010319E03E7000465831 /* splashscreen.png */,
+				1D17010419E03E7000465831 /* splashscreen.psd */,
+				1D17010519E03E7000465831 /* switchgrass.png */,
+			);
+			name = "Game Assets";
+			path = "../../Desktop/Game Assets";
+			sourceTree = "<group>";
+		};
+		1D1700E619E03E7000465831 /* C6_Game_Assets_Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700E719E03E7000465831 /* icon_app.png */,
+				1D1700E819E03E7000465831 /* icon_appstore.png */,
+			);
+			path = C6_Game_Assets_Icons;
+			sourceTree = "<group>";
+		};
+		1D1700E919E03E7000465831 /* C6_Game_Assets_NonRetina */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700EA19E03E7000465831 /* NR-bar_environment.png */,
+				1D1700EB19E03E7000465831 /* NR-bar_money.png */,
+				1D1700EC19E03E7000465831 /* NR-bar_social.png */,
+				1D1700ED19E03E7000465831 /* NR-barn.png */,
+				1D1700EE19E03E7000465831 /* NR-corn.png */,
+				1D1700EF19E03E7000465831 /* NR-soil_bad.png */,
+				1D1700F019E03E7000465831 /* NR-soil_good.png */,
+				1D1700F119E03E7000465831 /* NR-soybean.png */,
+				1D1700F219E03E7000465831 /* NR-splashscreen.png */,
+				1D1700F319E03E7000465831 /* NR-switchgrass.png */,
+			);
+			path = C6_Game_Assets_NonRetina;
+			sourceTree = "<group>";
+		};
+		1D1700F419E03E7000465831 /* C6_Game_Assets_Retina */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700F519E03E7000465831 /* R-bar_environment.png */,
+				1D1700F619E03E7000465831 /* R-bar_money.png */,
+				1D1700F719E03E7000465831 /* R-bar_social.png */,
+				1D1700F819E03E7000465831 /* R-barn.png */,
+				1D1700F919E03E7000465831 /* R-corn.png */,
+				1D1700FA19E03E7000465831 /* R-soil_bad.png */,
+				1D1700FB19E03E7000465831 /* R-soil_good.png */,
+				1D1700FC19E03E7000465831 /* R-soybean.png */,
+				1D1700FD19E03E7000465831 /* R-splashscreen.png */,
+				1D1700FE19E03E7000465831 /* R-switchgrass.png */,
+			);
+			path = C6_Game_Assets_Retina;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +357,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D17011619E03E7000465831 /* R-bar_environment.png in Resources */,
+				1D17010819E03E7000465831 /* bar_social.png in Resources */,
+				1D17010719E03E7000465831 /* bar_money.png in Resources */,
+				1D17011519E03E7000465831 /* NR-switchgrass.png in Resources */,
+				1D17010B19E03E7000465831 /* icon_appstore.png in Resources */,
+				1D17011C19E03E7000465831 /* R-soil_good.png in Resources */,
+				1D17012119E03E7000465831 /* soil_bad.png in Resources */,
+				1D17011919E03E7000465831 /* R-barn.png in Resources */,
+				1D17010919E03E7000465831 /* barn.png in Resources */,
 				1D1700BD19E03C9B00465831 /* InfoPlist.strings in Resources */,
+				1D17011F19E03E7000465831 /* R-switchgrass.png in Resources */,
+				1D17011819E03E7000465831 /* R-bar_social.png in Resources */,
+				1D17010A19E03E7000465831 /* icon_app.png in Resources */,
+				1D17010E19E03E7000465831 /* NR-bar_social.png in Resources */,
+				1D17010D19E03E7000465831 /* NR-bar_money.png in Resources */,
+				1D17012319E03E7000465831 /* soybean.png in Resources */,
+				1D17012619E03E7000465831 /* switchgrass.png in Resources */,
+				1D17010619E03E7000465831 /* bar_environment.png in Resources */,
+				1D17011B19E03E7000465831 /* R-soil_bad.png in Resources */,
+				1D17012419E03E7000465831 /* splashscreen.png in Resources */,
+				1D17011019E03E7000465831 /* NR-corn.png in Resources */,
+				1D17011D19E03E7000465831 /* R-soybean.png in Resources */,
+				1D17012019E03E7000465831 /* corn.png in Resources */,
 				1D1700C519E03C9B00465831 /* Images.xcassets in Resources */,
+				1D17010F19E03E7000465831 /* NR-barn.png in Resources */,
+				1D17012219E03E7000465831 /* soil_good.png in Resources */,
+				1D17011119E03E7000465831 /* NR-soil_bad.png in Resources */,
+				1D17011419E03E7000465831 /* NR-splashscreen.png in Resources */,
+				1D17010C19E03E7000465831 /* NR-bar_environment.png in Resources */,
+				1D17012519E03E7000465831 /* splashscreen.psd in Resources */,
+				1D17011A19E03E7000465831 /* R-corn.png in Resources */,
+				1D17011719E03E7000465831 /* R-bar_money.png in Resources */,
+				1D17011219E03E7000465831 /* NR-soil_good.png in Resources */,
+				1D17011E19E03E7000465831 /* R-splashscreen.png in Resources */,
+				1D17011319E03E7000465831 /* NR-soybean.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +412,7 @@
 			files = (
 				1D1700BF19E03C9B00465831 /* main.m in Sources */,
 				1D1700C319E03C9B00465831 /* BioAppDelegate.m in Sources */,
+				1D17012919E03F8000465831 /* Farm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
