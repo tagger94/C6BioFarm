@@ -11,22 +11,26 @@
 
 @implementation Farm
 
-land * farmLand[20][50];
+NSMutableArray *farmLand;
+
 
 + (void) createFarmLand {
     land *temp;
     
-    for (int x = 0; x < 20; x++) {
-        for (int y = 0; y < 50; y++) {
-            farmLand[x][y] = temp;
-        }
+    
+    for(int i = 0; i < 1000; i++) {
+        [farmLand addObject:(temp)];
     }
 }
 
-+ (land*) getLand:(int*)x :(int*)y {
-    return farmLand[x][y];
++(NSMutableArray *) getLand {
+    return farmLand;
 }
 
-@end
+//+ (land*) getLand:(int*)x :(int*)y {
+//    return farmLand[x][y];
+//}
+//
+//@end
 
 
