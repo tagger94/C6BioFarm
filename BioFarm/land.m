@@ -37,5 +37,23 @@ int landType;
     return landType == 3 || landType == 5;
 }
 
++ (int) baseCrop {
+    switch (landType) {
+        case 1:
+            return 1;
+        case 2:
+            return 2;
+        case 3:
+            return 3;
+        case 4:
+            return 2;
+        case 5:
+            return 3;
+            
+        default:
+            break;
+    }
+}
+
 @end
 

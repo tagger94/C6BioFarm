@@ -10,4 +10,23 @@
 
 @implementation Farm
 
+<<<<<<< HEAD
+=======
+Land farmland[20][50];
+
++ (void) createFarmLand {
+    
+    
+    for (int x = 0; x < 20; x++) {
+        for (int y = 0; y < 50; y++) {
+            [farmland[x][y] tillLand];
+        }
+    }
+}
+
++ (Land[][]) getFarmLand {
+    return farmland;
+}
+
+>>>>>>> origin/Alex
 @end
