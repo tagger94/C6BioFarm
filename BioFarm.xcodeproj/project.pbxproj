@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1700B319E03C9B00465831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1700B219E03C9B00465831 /* Foundation.framework */; };
+		1D1700B519E03C9B00465831 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1700B419E03C9B00465831 /* CoreGraphics.framework */; };
+		1D1700B719E03C9B00465831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1700B619E03C9B00465831 /* UIKit.framework */; };
+		1D1700BD19E03C9B00465831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700BB19E03C9B00465831 /* InfoPlist.strings */; };
+		1D1700BF19E03C9B00465831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1700BE19E03C9B00465831 /* main.m */; };
+		1D1700C319E03C9B00465831 /* BioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1700C219E03C9B00465831 /* BioAppDelegate.m */; };
+		1D1700C519E03C9B00465831 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700C419E03C9B00465831 /* Images.xcassets */; };
+		1D1700CC19E03C9B00465831 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1700CB19E03C9B00465831 /* XCTest.framework */; };
+		1D1700CD19E03C9B00465831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1700B219E03C9B00465831 /* Foundation.framework */; };
+		1D1700CE19E03C9B00465831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1700B619E03C9B00465831 /* UIKit.framework */; };
+		1D1700D619E03C9B00465831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D1700D419E03C9B00465831 /* InfoPlist.strings */; };
+		1D1700D819E03C9B00465831 /* BioFarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1700D719E03C9B00465831 /* BioFarmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D1700CF19E03C9B00465831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D1700A719E03C9B00465831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D1700AE19E03C9B00465831;
+			remoteInfo = BioFarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D1700AF19E03C9B00465831 /* BioFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1700B219E03C9B00465831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D1700B419E03C9B00465831 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D1700B619E03C9B00465831 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D1700BA19E03C9B00465831 /* BioFarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BioFarm-Info.plist"; sourceTree = "<group>"; };
+		1D1700BC19E03C9B00465831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D1700BE19E03C9B00465831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D1700C019E03C9B00465831 /* BioFarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BioFarm-Prefix.pch"; sourceTree = "<group>"; };
+		1D1700C119E03C9B00465831 /* BioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BioAppDelegate.h; sourceTree = "<group>"; };
+		1D1700C219E03C9B00465831 /* BioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioAppDelegate.m; sourceTree = "<group>"; };
+		1D1700C419E03C9B00465831 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D1700CA19E03C9B00465831 /* BioFarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioFarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1700CB19E03C9B00465831 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D1700D319E03C9B00465831 /* BioFarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BioFarmTests-Info.plist"; sourceTree = "<group>"; };
+		1D1700D519E03C9B00465831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D1700D719E03C9B00465831 /* BioFarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioFarmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D1700AC19E03C9B00465831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1700B519E03C9B00465831 /* CoreGraphics.framework in Frameworks */,
+				1D1700B719E03C9B00465831 /* UIKit.framework in Frameworks */,
+				1D1700B319E03C9B00465831 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D1700C719E03C9B00465831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1700CC19E03C9B00465831 /* XCTest.framework in Frameworks */,
+				1D1700CE19E03C9B00465831 /* UIKit.framework in Frameworks */,
+				1D1700CD19E03C9B00465831 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1700A619E03C9B00465831 = {
+			isa = PBXGroup;
+			children = (
+				1D1700B819E03C9B00465831 /* BioFarm */,
+				1D1700D119E03C9B00465831 /* BioFarmTests */,
+				1D1700B119E03C9B00465831 /* Frameworks */,
+				1D1700B019E03C9B00465831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D1700B019E03C9B00465831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700AF19E03C9B00465831 /* BioFarm.app */,
+				1D1700CA19E03C9B00465831 /* BioFarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D1700B119E03C9B00465831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700B219E03C9B00465831 /* Foundation.framework */,
+				1D1700B419E03C9B00465831 /* CoreGraphics.framework */,
+				1D1700B619E03C9B00465831 /* UIKit.framework */,
+				1D1700CB19E03C9B00465831 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D1700B819E03C9B00465831 /* BioFarm */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700C119E03C9B00465831 /* BioAppDelegate.h */,
+				1D1700C219E03C9B00465831 /* BioAppDelegate.m */,
+				1D1700C419E03C9B00465831 /* Images.xcassets */,
+				1D1700B919E03C9B00465831 /* Supporting Files */,
+			);
+			path = BioFarm;
+			sourceTree = "<group>";
+		};
+		1D1700B919E03C9B00465831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700BA19E03C9B00465831 /* BioFarm-Info.plist */,
+				1D1700BB19E03C9B00465831 /* InfoPlist.strings */,
+				1D1700BE19E03C9B00465831 /* main.m */,
+				1D1700C019E03C9B00465831 /* BioFarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D1700D119E03C9B00465831 /* BioFarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700D719E03C9B00465831 /* BioFarmTests.m */,
+				1D1700D219E03C9B00465831 /* Supporting Files */,
+			);
+			path = BioFarmTests;
+			sourceTree = "<group>";
+		};
+		1D1700D219E03C9B00465831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D1700D319E03C9B00465831 /* BioFarmTests-Info.plist */,
+				1D1700D419E03C9B00465831 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D1700AE19E03C9B00465831 /* BioFarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1700DB19E03C9B00465831 /* Build configuration list for PBXNativeTarget "BioFarm" */;
+			buildPhases = (
+				1D1700AB19E03C9B00465831 /* Sources */,
+				1D1700AC19E03C9B00465831 /* Frameworks */,
+				1D1700AD19E03C9B00465831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioFarm;
+			productName = BioFarm;
+			productReference = 1D1700AF19E03C9B00465831 /* BioFarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D1700C919E03C9B00465831 /* BioFarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1700DE19E03C9B00465831 /* Build configuration list for PBXNativeTarget "BioFarmTests" */;
+			buildPhases = (
+				1D1700C619E03C9B00465831 /* Sources */,
+				1D1700C719E03C9B00465831 /* Frameworks */,
+				1D1700C819E03C9B00465831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D1700D019E03C9B00465831 /* PBXTargetDependency */,
+			);
+			name = BioFarmTests;
+			productName = BioFarmTests;
+			productReference = 1D1700CA19E03C9B00465831 /* BioFarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D1700A719E03C9B00465831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bio;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Iowa State";
+				TargetAttributes = {
+					1D1700C919E03C9B00465831 = {
+						TestTargetID = 1D1700AE19E03C9B00465831;
+					};
+				};
+			};
+			buildConfigurationList = 1D1700AA19E03C9B00465831 /* Build configuration list for PBXProject "BioFarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D1700A619E03C9B00465831;
+			productRefGroup = 1D1700B019E03C9B00465831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D1700AE19E03C9B00465831 /* BioFarm */,
+				1D1700C919E03C9B00465831 /* BioFarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D1700AD19E03C9B00465831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1700BD19E03C9B00465831 /* InfoPlist.strings in Resources */,
+				1D1700C519E03C9B00465831 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D1700C819E03C9B00465831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1700D619E03C9B00465831 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D1700AB19E03C9B00465831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1700BF19E03C9B00465831 /* main.m in Sources */,
+				1D1700C319E03C9B00465831 /* BioAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D1700C619E03C9B00465831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1700D819E03C9B00465831 /* BioFarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D1700D019E03C9B00465831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D1700AE19E03C9B00465831 /* BioFarm */;
+			targetProxy = 1D1700CF19E03C9B00465831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D1700BB19E03C9B00465831 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D1700BC19E03C9B00465831 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D1700D419E03C9B00465831 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D1700D519E03C9B00465831 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D1700D919E03C9B00465831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D1700DA19E03C9B00465831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D1700DC19E03C9B00465831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BioFarm/BioFarm-Prefix.pch";
+				INFOPLIST_FILE = "BioFarm/BioFarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D1700DD19E03C9B00465831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BioFarm/BioFarm-Prefix.pch";
+				INFOPLIST_FILE = "BioFarm/BioFarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D1700DF19E03C9B00465831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BioFarm.app/BioFarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BioFarm/BioFarm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BioFarmTests/BioFarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1D1700E019E03C9B00465831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BioFarm.app/BioFarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BioFarm/BioFarm-Prefix.pch";
+				INFOPLIST_FILE = "BioFarmTests/BioFarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D1700AA19E03C9B00465831 /* Build configuration list for PBXProject "BioFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1700D919E03C9B00465831 /* Debug */,
+				1D1700DA19E03C9B00465831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D1700DB19E03C9B00465831 /* Build configuration list for PBXNativeTarget "BioFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1700DC19E03C9B00465831 /* Debug */,
+				1D1700DD19E03C9B00465831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D1700DE19E03C9B00465831 /* Build configuration list for PBXNativeTarget "BioFarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1700DF19E03C9B00465831 /* Debug */,
+				1D1700E019E03C9B00465831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D1700A719E03C9B00465831 /* Project object */;
+}
