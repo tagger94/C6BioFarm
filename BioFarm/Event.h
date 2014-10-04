@@ -10,7 +10,7 @@
 
 @interface Event : NSObject
 
-+ (void) chooseEvent : (int)num;
++ (void) chooseEvent : (int)num :(NSObject*) obj;
 
 @end
 

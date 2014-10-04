@@ -8,25 +8,29 @@
 
 #import "Event.h"
 #import "Randevent.h"
+#import "Harvest.h"
+#import "Grow.h"
+#import "Buy.h"
+#import "EndSeason.h"
 
 @implementation Event : NSObject
 
-+ (void) chooseEvent:(int)num{
++ (void) chooseEvent:(int) num: (NSObject*) obj{
     switch (num) {
         case 1:
             [Randevent doEvent];
             break;
         case 2:
-            //Harvest();
+            //[Harvest getCash];
             break;
         case 3:
-            //Grow();
+            BOOL didGrow = [Grow grow:[NSObject obj]];
             break;
         case 4:
-            //Buy();
+            BOOL couldBuy = [Buy buy: [NSObject obj]];
             break;
         case 5:
-            //Endofseason();
+            double endCash = [EndSeason end: [NSObject obj]];
             break;
         default:
             break;
