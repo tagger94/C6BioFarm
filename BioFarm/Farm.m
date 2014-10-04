@@ -7,22 +7,23 @@
 //
 
 #import "Farm.h"
+#import "land.m"
 
 @implementation Farm
 
-Land farmland[20][50];
+land[20][50] *farmland;
 
 + (void) createFarmLand {
-    
+    land *temp;
     
     for (int x = 0; x < 20; x++) {
         for (int y = 0; y < 50; y++) {
-            [farmland[x][y] tillLand];
+            farmland[x][y] = temp;
         }
     }
 }
 
-+ (Land[][]) getFarmLand {
++ (*(land [][])) getFarmLand {
     return farmland;
 }
 
