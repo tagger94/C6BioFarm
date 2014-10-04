@@ -11,20 +11,22 @@
 
 @implementation Farm
 
-land[20][50] *farmland;
+land * farmLand[20][50];
 
 + (void) createFarmLand {
     land *temp;
     
     for (int x = 0; x < 20; x++) {
         for (int y = 0; y < 50; y++) {
-            farmland[x][y] = temp;
+            farmLand[x][y] = temp;
         }
     }
 }
 
-+ (*(land [][])) getFarmLand {
-    return farmland;
++ (land*) getLand:(int*)x :(int*)y {
+    return farmLand[x][y];
 }
 
 @end
+
+
