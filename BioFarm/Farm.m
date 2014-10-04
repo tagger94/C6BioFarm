@@ -10,8 +10,6 @@
 
 @implementation Farm
 
-<<<<<<< HEAD
-=======
 Land farmland[20][50];
 
 + (void) createFarmLand {
@@ -28,5 +26,4 @@ Land farmland[20][50];
     return farmland;
 }
 
->>>>>>> origin/Alex
 @end

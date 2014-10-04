@@ -5,31 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>22F057DC-7D02-40C8-AB13-5CD674FBC137</string>
-=======
-	<string>4BE2E39E-C228-4E1A-BEF5-F59A3DD26A7C</string>
->>>>>>> origin/Alex
+	<string>EEF383F9-351B-4306-9102-F176F86E3128</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BioFarm</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
 		<key>3075CBC5-52ED-4EE6-80AF-708CC0E91A64</key>
-=======
-		<key>734FE305-BCB9-42DC-9568-1C46F42FDDED</key>
->>>>>>> origin/Alex
 		<string>https://github.com/tagger94/C6BioFarm.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BioFarm.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
 		<key>3075CBC5-52ED-4EE6-80AF-708CC0E91A64</key>
-=======
-		<key>734FE305-BCB9-42DC-9568-1C46F42FDDED</key>
->>>>>>> origin/Alex
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -37,26 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
 	<string>3075CBC5-52ED-4EE6-80AF-708CC0E91A64</string>
-=======
-	<string>734FE305-BCB9-42DC-9568-1C46F42FDDED</string>
->>>>>>> origin/Alex
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
 			<string>3075CBC5-52ED-4EE6-80AF-708CC0E91A64</string>
 			<key>IDESourceControlWCCName</key>
 			<string>C6BioFarm</string>
-=======
-			<string>734FE305-BCB9-42DC-9568-1C46F42FDDED</string>
-			<key>IDESourceControlWCCName</key>
-			<string>BioFarm</string>
->>>>>>> origin/Alex
 		</dict>
 	</array>
 </dict>
