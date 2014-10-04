@@ -8,15 +8,21 @@
 
 #import "EndSeason.h"
 #import "land.h"
+#import "Money.h"
+#import "Harvest.h"
 
 @implementation EndSeason
 
-+ (double)end: (land[20][50]) farmLand{
-    for (int i = 0; i <= 20; i++) {
-        for (int j = 0; i<=50; j++){
-            [farmLand[i][[j] harvestLand]
-        }
++ (double)end: (NSMutableArray *) farmLand{
+    int cash = [Money getCash];
+    
+    for(int i = 0; i<1000; i++){
+        [Harvest getCash: farmLand[i]];
     }
+    
+    int cash1 = [Money getCash];
+    
+    return (cash1 - cash);
+    
 }
-
 @end

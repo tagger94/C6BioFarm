@@ -11,6 +11,6 @@
 
 @interface EndSeason : NSObject
 
-+ (double)end: (land[20][50]) farmLand;
++ (double)end: (NSMutableArray *) farmLand;
 
 @end
