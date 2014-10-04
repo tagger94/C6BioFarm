@@ -12,12 +12,16 @@
 
 int cash = 1000000;
 
-- (void) add: (double) num{
++ (void) add: (double) num{
     cash += num;
 }
 
-- (void) sub: (double) num{
++ (void) sub: (double) num{
     cash -= num; 
+}
+
++ (double) getCash{
+    return cash;
 }
 
 @end

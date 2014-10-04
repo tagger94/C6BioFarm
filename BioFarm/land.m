@@ -14,7 +14,6 @@ int landType;
 
 + (void) initialize {
     landType = 0;
-    
 }
 
 + (int) getLand {

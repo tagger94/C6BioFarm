@@ -10,7 +10,7 @@
 
 @implementation Randevent
 
-- (void)doEvent{
++ (void)doEvent{
     int r = arc4random_uniform(1000) + 1;
     
     switch (r) {
