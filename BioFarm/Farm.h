@@ -10,6 +10,6 @@
 
 @interface Farm : NSObject
 
-
+NSArray land = new NSArray
 
 @end
