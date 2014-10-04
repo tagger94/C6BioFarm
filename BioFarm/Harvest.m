@@ -34,7 +34,7 @@
     }
     
     [Money add: num];
-    [ l harvestLand];
+    [l harvestLand];
     
     
 }

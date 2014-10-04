@@ -58,7 +58,7 @@
 		38BB291B19E07817002B54E8 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291519E07817002B54E8 /* Money.m */; };
 		38BB291C19E07817002B54E8 /* Randevent.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291719E07817002B54E8 /* Randevent.m */; };
 		38BB291E19E0782D002B54E8 /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291D19E0782D002B54E8 /* Farm.m */; };
-
+		38BB292119E08E28002B54E8 /* Grow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB292019E08E28002B54E8 /* Grow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,7 +133,8 @@
 		38BB291619E07817002B54E8 /* Randevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randevent.h; sourceTree = "<group>"; };
 		38BB291719E07817002B54E8 /* Randevent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Randevent.m; sourceTree = "<group>"; };
 		38BB291D19E0782D002B54E8 /* Farm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farm.m; sourceTree = "<group>"; };
-
+		38BB291F19E08E28002B54E8 /* Grow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grow.h; sourceTree = "<group>"; };
+		38BB292019E08E28002B54E8 /* Grow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,15 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				1DD208BB19E07FBD00761A61 /* en.lproj */,
-				1DD208BE19E07FBD00761A61 /* Event.h */,
-				1DD208BF19E07FBD00761A61 /* Event.m */,
-				1DD208C019E07FBD00761A61 /* Harvest.h */,
-				1DD208C119E07FBD00761A61 /* Harvest.m */,
-				1DD208C219E07FBD00761A61 /* Images.xcassets */,
-				1DD208C319E07FBD00761A61 /* Money.h */,
-				1DD208C419E07FBD00761A61 /* Money.m */,
-				1DD208C519E07FBD00761A61 /* Randevent.h */,
-				1DD208C619E07FBD00761A61 /* Randevent.m */,
 				1D17016519E04F0F00465831 /* land.h */,
 				1D17016619E04F0F00465831 /* land.m */,
 				1D17012719E03F8000465831 /* Farm.h */,
@@ -216,6 +208,8 @@
 				38BB291319E07817002B54E8 /* Harvest.m */,
 				38BB291419E07817002B54E8 /* Money.h */,
 				38BB291519E07817002B54E8 /* Money.m */,
+				38BB291F19E08E28002B54E8 /* Grow.h */,
+				38BB292019E08E28002B54E8 /* Grow.m */,
 				38BB291619E07817002B54E8 /* Randevent.h */,
 				38BB291719E07817002B54E8 /* Randevent.m */,
 				1D1700C419E03C9B00465831 /* Images.xcassets */,
@@ -409,7 +403,6 @@
 				1D17010B19E03E7000465831 /* icon_appstore.png in Resources */,
 				1D17011C19E03E7000465831 /* R-soil_good.png in Resources */,
 				1D17012119E03E7000465831 /* soil_bad.png in Resources */,
-				1DD208CA19E07FBD00761A61 /* Images.xcassets in Resources */,
 				1D17011919E03E7000465831 /* R-barn.png in Resources */,
 				1D17010919E03E7000465831 /* barn.png in Resources */,
 				1D1700BD19E03C9B00465831 /* InfoPlist.strings in Resources */,
@@ -428,7 +421,6 @@
 				1D17012019E03E7000465831 /* corn.png in Resources */,
 				1D1700C519E03C9B00465831 /* Images.xcassets in Resources */,
 				1D17010F19E03E7000465831 /* NR-barn.png in Resources */,
-				1DD208C719E07FBD00761A61 /* InfoPlist.strings in Resources */,
 				1D17012219E03E7000465831 /* soil_good.png in Resources */,
 				1D17011119E03E7000465831 /* NR-soil_bad.png in Resources */,
 				1D17011419E03E7000465831 /* NR-splashscreen.png in Resources */,
@@ -463,10 +455,7 @@
 				38BB291A19E07817002B54E8 /* Harvest.m in Sources */,
 				38BB291C19E07817002B54E8 /* Randevent.m in Sources */,
 				1D1700BF19E03C9B00465831 /* main.m in Sources */,
-				1DD208C819E07FBD00761A61 /* Event.m in Sources */,
-				1DD208CB19E07FBD00761A61 /* Money.m in Sources */,
-				1DD208C919E07FBD00761A61 /* Harvest.m in Sources */,
-				1DD208CC19E07FBD00761A61 /* Randevent.m in Sources */,
+				38BB292119E08E28002B54E8 /* Grow.m in Sources */,
 				1D1700C319E03C9B00465831 /* BioAppDelegate.m in Sources */,
 				38BB291E19E0782D002B54E8 /* Farm.m in Sources */,
 			);
@@ -510,7 +499,6 @@
 		1DD208BC19E07FBD00761A61 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DD208BD19E07FBD00761A61 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
