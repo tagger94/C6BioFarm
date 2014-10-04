@@ -53,6 +53,7 @@
 		1D17012519E03E7000465831 /* splashscreen.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010419E03E7000465831 /* splashscreen.psd */; };
 		1D17012619E03E7000465831 /* switchgrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D17010519E03E7000465831 /* switchgrass.png */; };
 		1D17012919E03F8000465831 /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D17012819E03F8000465831 /* Farm.m */; };
+		1D17016719E04F0F00465831 /* land.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D17016619E04F0F00465831 /* land.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,8 @@
 		1D17010519E03E7000465831 /* switchgrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchgrass.png; sourceTree = "<group>"; };
 		1D17012719E03F8000465831 /* Farm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farm.h; sourceTree = "<group>"; };
 		1D17012819E03F8000465831 /* Farm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farm.m; sourceTree = "<group>"; };
+		1D17016519E04F0F00465831 /* land.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = land.h; sourceTree = "<group>"; };
+		1D17016619E04F0F00465831 /* land.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = land.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,12 +180,14 @@
 		1D1700B819E03C9B00465831 /* BioFarm */ = {
 			isa = PBXGroup;
 			children = (
+				1D17016519E04F0F00465831 /* land.h */,
 				1D17012719E03F8000465831 /* Farm.h */,
 				1D17012819E03F8000465831 /* Farm.m */,
 				1D1700C119E03C9B00465831 /* BioAppDelegate.h */,
 				1D1700C219E03C9B00465831 /* BioAppDelegate.m */,
 				1D1700C419E03C9B00465831 /* Images.xcassets */,
 				1D1700B919E03C9B00465831 /* Supporting Files */,
+				1D17016619E04F0F00465831 /* land.m */,
 			);
 			path = BioFarm;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D17016719E04F0F00465831 /* land.m in Sources */,
 				1D1700BF19E03C9B00465831 /* main.m in Sources */,
 				1D1700C319E03C9B00465831 /* BioAppDelegate.m in Sources */,
 				1D17012919E03F8000465831 /* Farm.m in Sources */,
@@ -611,6 +617,7 @@
 				1D1700DD19E03C9B00465831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D1700DE19E03C9B00465831 /* Build configuration list for PBXNativeTarget "BioFarmTests" */ = {
 			isa = XCConfigurationList;
@@ -619,6 +626,7 @@
 				1D1700E019E03C9B00465831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
