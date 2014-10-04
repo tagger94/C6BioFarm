@@ -10,7 +10,7 @@
 
 @implementation Farm
 
-Land farmland[20][50];
+land farmland[20][50];
 
 + (void) createFarmLand {
     
@@ -22,7 +22,7 @@ Land farmland[20][50];
     }
 }
 
-+ (Land[][]) getFarmLand {
++ ((land[][])) getFarmLand {
     return farmland;
 }
 

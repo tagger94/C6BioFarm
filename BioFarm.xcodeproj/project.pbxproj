@@ -60,6 +60,7 @@
 		38BB291E19E0782D002B54E8 /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB291D19E0782D002B54E8 /* Farm.m */; };
 		38BB292119E08E28002B54E8 /* Grow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB292019E08E28002B54E8 /* Grow.m */; };
 		38BB292419E095D3002B54E8 /* Buy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB292319E095D3002B54E8 /* Buy.m */; };
+		38BB292719E09A27002B54E8 /* EndSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB292619E09A27002B54E8 /* EndSeason.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,8 @@
 		38BB292019E08E28002B54E8 /* Grow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grow.m; sourceTree = "<group>"; };
 		38BB292219E095D3002B54E8 /* Buy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buy.h; sourceTree = "<group>"; };
 		38BB292319E095D3002B54E8 /* Buy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buy.m; sourceTree = "<group>"; };
+		38BB292519E09A27002B54E8 /* EndSeason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndSeason.h; sourceTree = "<group>"; };
+		38BB292619E09A27002B54E8 /* EndSeason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndSeason.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +216,8 @@
 				38BB291319E07817002B54E8 /* Harvest.m */,
 				38BB291419E07817002B54E8 /* Money.h */,
 				38BB291519E07817002B54E8 /* Money.m */,
+				38BB292519E09A27002B54E8 /* EndSeason.h */,
+				38BB292619E09A27002B54E8 /* EndSeason.m */,
 				38BB291F19E08E28002B54E8 /* Grow.h */,
 				38BB292019E08E28002B54E8 /* Grow.m */,
 				38BB291619E07817002B54E8 /* Randevent.h */,
@@ -460,6 +465,7 @@
 				38BB291A19E07817002B54E8 /* Harvest.m in Sources */,
 				38BB291C19E07817002B54E8 /* Randevent.m in Sources */,
 				1D1700BF19E03C9B00465831 /* main.m in Sources */,
+				38BB292719E09A27002B54E8 /* EndSeason.m in Sources */,
 				38BB292419E095D3002B54E8 /* Buy.m in Sources */,
 				38BB292119E08E28002B54E8 /* Grow.m in Sources */,
 				1D1700C319E03C9B00465831 /* BioAppDelegate.m in Sources */,
